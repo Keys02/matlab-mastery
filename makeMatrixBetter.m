@@ -3,6 +3,8 @@ function calcMat = showOff(M)
     for elem = 1:numel(M)
         if(M(elem) > 5)
             calcMat(elem) = M(elem) - 2;
+        else
+            calcMat(elem) = M(elem);
         end
     end
 end
