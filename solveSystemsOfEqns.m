@@ -10,3 +10,10 @@ disp(x1)
 x2 = inv(A) * b;
 disp("Using the inv()function")
 disp(x2)
+
+%{
+    NB: Using the inverse method usually
+    takes longer than using Gaussian
+    elimination especially for large
+    systems of equations
+%}
