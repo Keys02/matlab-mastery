@@ -36,3 +36,7 @@ disp("R+S");
 result = R+S
 disp("R/S: Element-by-element")
 result = R./S
+disp("R*S")
+R*S
+X = [1 -2 0 1; 2 3 6 2; -3 5 2 1; 5 -2 4 4]
+scaledX = X*3
