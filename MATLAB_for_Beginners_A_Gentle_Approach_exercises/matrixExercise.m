@@ -1,0 +1,38 @@
+A = [3 0 -2; 1 3 5]
+
+disp("Size of A: ")
+
+disp(size(A))
+
+disp("Element in the first row, second column of A: " + A(2,2))
+
+B = A * 3*pi/2
+
+disp("Element in the first row, third column of B: " + B(1,3))
+
+disp("Size of B: ")
+
+disp(size(B))
+
+disp("The largest of the number of rows and columns: "+ length(B))
+disp(' ')
+disp("The number of elements in B: " + numel(B))
+disp(' ')
+disp("The total sum of each column of B: ")
+disp(sum(B))
+disp(' ')
+disp("The minimum value of each column of B: ")
+disp(min(B))
+disp(' ')
+disp("The maximum value of each column of B: ")
+disp(max(B))
+
+C = [[1 3 0 -4]; [5 3 1 0]; [2 2 -1 1]]
+
+R = [1 2 0; 7 5 -3; 3 1 1]
+S = [1 3 -2; 3 5 7; 2 3 0]
+
+disp("R+S");
+result = R+S
+disp("R/S: Element-by-element")
+result = R./S
